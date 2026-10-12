@@ -1,5 +1,7 @@
 # ACL project
 
+omar hamdy
+
 Formula 1 podium prediction for one driver entering one race. The label is a podium finish (`positionOrder <= 3`). The cutoff is after qualifying and before the race starts, so the race result, laps, pit stops, status, points, and the standings published for that same race are not used as features.
 
 ## Dataset
