@@ -1,0 +1,4 @@
+check,rows,max_abs_seconds
+results winner time vs milliseconds,1167,0.0
+lap time string vs milliseconds,882166,0.0010000000000047748
+pit duration string vs milliseconds,22774,2.2737367544323206e-13

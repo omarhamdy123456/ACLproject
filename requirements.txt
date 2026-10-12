@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+shap>=0.46
+lime>=0.2
+fpdf2>=2.8
+jupyter>=1.1
+nbconvert>=7.16

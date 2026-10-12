@@ -1,0 +1,44 @@
+table,check,columns,rows,null_key_rows,problem_rows,passed
+circuits,primary_key,circuitId,78,0,0,True
+constructors,primary_key,constructorId,214,0,0,True
+constructor_results,primary_key,constructorResultsId,13041,0,0,True
+constructor_standings,primary_key,constructorStandingsId,13807,0,0,True
+drivers,primary_key,driverId,865,0,0,True
+driver_standings,primary_key,driverStandingsId,35718,0,0,True
+races,primary_key,raceId,1172,0,0,True
+results,primary_key,resultId,27590,0,0,True
+qualifying,primary_key,qualifyId,11320,0,0,True
+lap_times,primary_key,"raceId, driverId, lap",882166,0,0,True
+pit_stops,primary_key,"raceId, driverId, stop",22777,0,0,True
+sprint_results,primary_key,resultId,590,0,0,True
+seasons,primary_key,year,77,0,0,True
+status,primary_key,statusId,141,0,0,True
+results_driver_race,grain,"raceId, driverId",27590,0,91,False
+qualifying_driver_race,grain,"raceId, driverId",11320,0,0,True
+sprint_driver_race,grain,"raceId, driverId",590,0,0,True
+driver_standings_driver_race,grain,"raceId, driverId",35718,0,0,True
+constructor_standings_race,grain,"raceId, constructorId",13807,0,0,True
+constructor_results_race,grain,"raceId, constructorId",13041,0,0,True
+races,foreign_key,circuitId -> circuits.circuitId,1172,0,0,True
+results,foreign_key,raceId -> races.raceId,27590,0,0,True
+results,foreign_key,driverId -> drivers.driverId,27590,0,0,True
+results,foreign_key,constructorId -> constructors.constructorId,27590,0,0,True
+results,foreign_key,statusId -> status.statusId,27590,0,0,True
+qualifying,foreign_key,raceId -> races.raceId,11320,0,0,True
+qualifying,foreign_key,driverId -> drivers.driverId,11320,0,0,True
+qualifying,foreign_key,constructorId -> constructors.constructorId,11320,0,0,True
+driver_standings,foreign_key,raceId -> races.raceId,35718,0,0,True
+driver_standings,foreign_key,driverId -> drivers.driverId,35718,0,0,True
+constructor_standings,foreign_key,raceId -> races.raceId,13807,0,0,True
+constructor_standings,foreign_key,constructorId -> constructors.constructorId,13807,0,0,True
+constructor_results,foreign_key,raceId -> races.raceId,13041,0,0,True
+constructor_results,foreign_key,constructorId -> constructors.constructorId,13041,0,0,True
+lap_times,foreign_key,raceId -> races.raceId,882166,0,0,True
+lap_times,foreign_key,driverId -> drivers.driverId,882166,0,0,True
+pit_stops,foreign_key,raceId -> races.raceId,22777,0,0,True
+pit_stops,foreign_key,driverId -> drivers.driverId,22777,0,0,True
+sprint_results,foreign_key,raceId -> races.raceId,590,0,0,True
+sprint_results,foreign_key,driverId -> drivers.driverId,590,0,0,True
+sprint_results,foreign_key,constructorId -> constructors.constructorId,590,0,0,True
+sprint_results,foreign_key,statusId -> status.statusId,590,2,0,True
+driver_race,grain,"raceId, driverId",27499,0,0,True

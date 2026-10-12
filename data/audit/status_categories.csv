@@ -1,0 +1,142 @@
+statusId,status,category
+1,Finished,classified
+2,Disqualified,regulation
+3,Accident,crash
+4,Collision,crash
+5,Engine,mechanical
+6,Gearbox,mechanical
+7,Transmission,mechanical
+8,Clutch,mechanical
+9,Hydraulics,mechanical
+10,Electrical,mechanical
+11,+1 Lap,classified
+12,+2 Laps,classified
+13,+3 Laps,classified
+14,+4 Laps,classified
+15,+5 Laps,classified
+16,+6 Laps,classified
+17,+7 Laps,classified
+18,+8 Laps,classified
+19,+9 Laps,classified
+20,Spun off,crash
+21,Radiator,mechanical
+22,Suspension,mechanical
+23,Brakes,mechanical
+24,Differential,mechanical
+25,Overheating,mechanical
+26,Mechanical,mechanical
+27,Tyre,mechanical
+28,Driver Seat,mechanical
+29,Puncture,mechanical
+30,Driveshaft,mechanical
+31,Retired,not_attributed
+32,Fuel pressure,mechanical
+33,Front wing,mechanical
+34,Water pressure,mechanical
+35,Refuelling,not_attributed
+36,Wheel,mechanical
+37,Throttle,mechanical
+38,Steering,mechanical
+39,Technical,mechanical
+40,Electronics,mechanical
+41,Broken wing,mechanical
+42,Heat shield fire,mechanical
+43,Exhaust,mechanical
+44,Oil leak,mechanical
+45,+11 Laps,classified
+46,Wheel rim,mechanical
+47,Water leak,mechanical
+48,Fuel pump,mechanical
+49,Track rod,mechanical
+50,+17 Laps,classified
+51,Oil pressure,mechanical
+53,+13 Laps,classified
+54,Withdrew,did_not_start
+55,+12 Laps,classified
+56,Engine fire,mechanical
+58,+26 Laps,classified
+59,Tyre puncture,mechanical
+60,Out of fuel,not_attributed
+61,Wheel nut,mechanical
+62,Not classified,not_attributed
+63,Pneumatics,mechanical
+64,Handling,not_attributed
+65,Rear wing,mechanical
+66,Fire,mechanical
+67,Wheel bearing,mechanical
+68,Physical,driver
+69,Fuel system,mechanical
+70,Oil line,mechanical
+71,Fuel rig,not_attributed
+72,Launch control,mechanical
+73,Injured,driver
+74,Fuel,not_attributed
+75,Power loss,mechanical
+76,Vibrations,mechanical
+77,107% Rule,did_not_start
+78,Safety,not_attributed
+79,Drivetrain,mechanical
+80,Ignition,mechanical
+81,Did not qualify,did_not_start
+82,Injury,driver
+83,Chassis,mechanical
+84,Battery,mechanical
+85,Stalled,driver
+86,Halfshaft,mechanical
+87,Crankshaft,mechanical
+88,+10 Laps,classified
+89,Safety concerns,not_attributed
+90,Not restarted,not_attributed
+91,Alternator,mechanical
+92,Underweight,regulation
+93,Safety belt,mechanical
+94,Oil pump,mechanical
+95,Fuel leak,mechanical
+96,Excluded,regulation
+97,Did not prequalify,did_not_start
+98,Injection,mechanical
+99,Distributor,mechanical
+100,Driver unwell,driver
+101,Turbo,mechanical
+102,CV joint,mechanical
+103,Water pump,mechanical
+104,Fatal accident,crash
+105,Spark plugs,mechanical
+106,Fuel pipe,mechanical
+107,Eye injury,driver
+108,Oil pipe,mechanical
+109,Axle,mechanical
+110,Water pipe,mechanical
+111,+14 Laps,classified
+112,+15 Laps,classified
+113,+25 Laps,classified
+114,+18 Laps,classified
+115,+22 Laps,classified
+116,+16 Laps,classified
+117,+24 Laps,classified
+118,+29 Laps,classified
+119,+23 Laps,classified
+120,+21 Laps,classified
+121,Magneto,mechanical
+122,+44 Laps,classified
+123,+30 Laps,classified
+124,+19 Laps,classified
+125,+46 Laps,classified
+126,Supercharger,mechanical
+127,+20 Laps,classified
+128,+42 Laps,classified
+129,Engine misfire,mechanical
+130,Collision damage,crash
+131,Power Unit,mechanical
+132,ERS,mechanical
+133,+49 Laps,classified
+134,+38 Laps,classified
+135,Brake duct,mechanical
+136,Seat,mechanical
+137,Damage,crash
+138,Debris,crash
+139,Illness,driver
+140,Undertray,mechanical
+141,Cooling system,mechanical
+142,Vibration,mechanical
+143,Safety switch,mechanical

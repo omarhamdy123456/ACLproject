@@ -1,0 +1,39 @@
+table,column,blank_markers,method,values_filled,still_missing,reason
+constructor_results,disqualified,13024,filled with False,13024,0,Each \N in status was written here as False. Every row now has True or False.
+constructor_results,status,13024,code as not disqualified,0,13024,\N means the constructor was not disqualified. Stored as disqualified=False. D stays True.
+constructor_standings,position,1,leave missing,0,1,One standings row is unranked. A median rank would invent a place.
+driver_standings,position,13,leave missing,0,13,The text is already '-': unranked. The mode would assign a championship place.
+drivers,code,757,leave missing,0,757,Three-letter codes did not exist for most of the history. The mode would copy one code onto old drivers.
+drivers,number,802,leave missing,0,802,Permanent numbers did not exist for most of the history. The mode would copy one modern number onto old drivers.
+pit_stops,duration,3,leave missing,0,3,Three stops have no duration. A median would hide a broken measurement. Pit stops happen during the race.
+pit_stops,milliseconds,3,leave missing,0,3,The same three stops have no duration in milliseconds.
+qualifying,q1,164,leave missing,0,164,The driver set no Q1 time. A median lap time would invent one.
+qualifying,q2,4867,leave missing,0,4867,The driver did not reach Q2. A median would say they set a Q2 time.
+qualifying,q3,7299,leave missing,0,7299,The driver did not reach Q3. A median would say they set a Q3 time.
+races,fp1_date,1035,leave missing,0,1035,This session was not stored for that race.
+races,fp1_time,1057,leave missing,0,1057,This session was not stored for that race.
+races,fp2_date,1053,leave missing,0,1053,This session was not stored for that race.
+races,fp2_time,1075,leave missing,0,1075,This session was not stored for that race.
+races,fp3_date,1065,leave missing,0,1065,This session was not stored for that race.
+races,fp3_time,1084,leave missing,0,1084,This session was not stored for that race.
+races,quali_date,1035,leave missing,0,1035,This session was not stored for that race.
+races,quali_time,1057,leave missing,0,1057,This session was not stored for that race.
+races,sprint_date,1142,leave missing,0,1142,"This race had no sprint, or the sprint date was not stored."
+races,sprint_time,1145,leave missing,0,1145,"This race had no sprint, or the sprint time was not stored."
+races,time,731,leave missing,0,731,The start clock was not stored. An average of clock times is not a start time.
+results,fastestLap,18564,leave missing,0,18564,No fastest lap was stored. Known only after the race.
+results,fastestLapSpeed,19338,leave missing,0,19338,"No fastest-lap speed was stored. The distribution is skewed, and a median would still invent a speed."
+results,fastestLapTime,18564,leave missing,0,18564,No fastest-lap time was stored. A median lap time would invent one.
+results,grid,42,leave missing,0,42,The file omitted the grid for two whole races. The median grid would pretend those drivers started from midfield. Grid 0 is a real value and is not filled.
+results,milliseconds,19411,leave missing,0,19411,"No elapsed time was stored. Same column as the finish clock, in milliseconds."
+results,number,6,leave missing,0,6,A few cars have no number. The mode would give them a number that already belongs to another car.
+results,position,10953,leave missing,0,10953,Empty means not classified. positionOrder is already filled. A median position would create a finish.
+results,rank,18306,leave missing,0,18306,No fastest-lap rank was stored. Known only after the race.
+results,time,19411,leave missing,0,19411,No finish clock was stored. A median time would give a retired car a finish time. Known only after the race.
+sprint_results,fastestLap,16,leave missing,0,16,No sprint fastest lap was stored.
+sprint_results,fastestLapTime,16,leave missing,0,16,No sprint fastest-lap time was stored.
+sprint_results,milliseconds,39,leave missing,0,39,No sprint elapsed time was stored.
+sprint_results,position,15,leave missing,0,15,The driver was not classified in the sprint.
+sprint_results,rank,367,leave missing,0,367,No sprint fastest-lap rank was stored.
+sprint_results,statusId,2,leave missing,0,2,Two sprint rows have no status. The mode would mark them as the most common status.
+sprint_results,time,39,leave missing,0,39,No sprint finish clock was stored.

@@ -1,0 +1,26 @@
+column,role,meaning
+raceId,identifier,Race key. Already known when the race is scheduled.
+driverId,identifier,Driver key.
+resultId,identifier,resultId of the row kept by the collapse rule.
+year,pre_race_context,Season. Known before the race.
+round,pre_race_context,Round number. Known before the race.
+race_date,pre_race_context,Scheduled race date.
+circuitId,pre_race_context,Circuit. Known before the race.
+race_name,pre_race_context,Grand Prix name.
+constructorId,pre_race_context,"Constructor on the kept row. When n_constructors > 1 the driver drove more than one car, so this is the car of the better classified stint, not necessarily the car they qualified."
+car_number,pre_race_context,Car number on the kept row.
+grid,pre_race_context,Starting grid. 0 means no grid slot (pit lane or did not start). Null means the source file omitted the grid for that row.
+n_result_rows,audit,How many results rows this driver had in this race before the collapse.
+n_constructors,audit,How many constructors those rows used.
+shared_entry,audit,"True when n_result_rows > 1. These are shared drives or double entries, almost all from 1950-1964, plus one 1978 case."
+position,post_race_label,Official classified position. Null means not classified. Not a legal model feature: it is known only after the race.
+positionText,post_race_label,"Official position text, including R, D, W, F, N. Not a legal model feature."
+positionOrder,post_race_label,"Dense rank of every starter, including retirements. The brief defines the label from this column. Not a legal model feature."
+points,post_race_label,Points scored in this race. Not a legal model feature.
+laps,post_race_label,Laps completed. Not a legal model feature.
+statusId,post_race_label,Finishing status. Not a legal model feature.
+podium,post_race_label,Brief's label: positionOrder <= 3.
+official_podium,post_race_label,"positionText is 1, 2, or 3. Kept so the one known disagreement with podium can be audited."
+podium_definition_conflict,audit,True when podium and official_podium disagree.
+in_assignment_window,audit,"True when year <= 2024, the window named in the brief. Later completed races are retained and flagged, not deleted."
+collapse_rule,audit,Rule that chose resultId. The same rule is used on every row.

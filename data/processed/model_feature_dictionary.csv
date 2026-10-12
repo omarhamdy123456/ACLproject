@@ -1,0 +1,16 @@
+column,group,meaning
+grid,grid,"Starting grid after penalties. Known before the race. 0 means no grid slot, and it is not filled in."
+front_row,grid,"1 when the grid is 1 or 2, otherwise 0. Missing when the grid itself is missing."
+quali_position,qualifying,Official qualifying position for this race. Known after qualifying. Missing when that session is not in the file.
+reached_q3,qualifying,"1 when the driver set a Q3 time. Missing for a whole race that did not use Q3, so a blank is not treated as an elimination."
+quali_position_missing,qualifying,"1 when quali_position is missing, so an imputed position is not mistaken for a real one."
+driver_podium_rate_last5,form,Share of this driver's previous 5 starts that were podiums. This race is excluded.
+driver_points_last5,form,Points from this driver's previous 5 starts. This race's points are excluded.
+constructor_podium_rate_last5,form,Mean podium share of this constructor's cars over its previous 5 races. This race is excluded.
+career_starts,form,Number of race starts this driver had before this one.
+form_missing,form,"1 on a driver's first start in the file, when the previous-5 rates do not exist."
+driver_standing_entering,standings,Driver championship position after the previous round. The standings row for this race is not used.
+constructor_standing_entering,standings,Constructor championship position after the previous round.
+standing_missing,standings,1 when there is no driver standings row for the previous round. That includes every round 1.
+season_round,standings,Round number in the season. It is known when the calendar is published.
+home_race,home,1 when the circuit's country matches the driver's nationality. A dual national matches either country.

@@ -1,0 +1,10 @@
+model,params,validation_pr_auc,weighted
+random_forest,{'max_depth': 12},0.7377127485015124,False
+neural_network,"{'hidden_layers': (64, 32)}",0.733563147176178,True
+neural_network,"{'hidden_layers': (32,)}",0.7265396125268144,True
+random_forest,{'max_depth': 6},0.7254077360409268,False
+gradient_boosting,{'max_depth': 3},0.724642277477603,True
+logistic_regression,{'C': 0.2},0.720997933882445,False
+logistic_regression,{'C': 1.0},0.7209837015329068,False
+logistic_regression,{'C': 5.0},0.7209254194944418,False
+gradient_boosting,{'max_depth': 2},0.7159809842605147,True

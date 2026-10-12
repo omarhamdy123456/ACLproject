@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+kaggle_output/
+.pytest_cache/
+.mypy_cache/

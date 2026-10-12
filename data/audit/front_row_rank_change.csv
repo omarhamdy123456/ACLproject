@@ -1,0 +1,8 @@
+circuit_name,country,podium_rate_pre,rank_pre,front_row_starts_pre,podium_rate_post,rank_post,front_row_starts_post,ranks_gained
+Circuit de Monaco,Monaco,0.49166666666666664,23,120,0.85,2,20,21
+Autodromo Nazionale di Monza,Italy,0.4838709677419355,25,124,0.7272727272727273,8,22,17
+Circuit de Spa-Francorchamps,Belgium,0.550561797752809,17,89,0.8181818181818182,3,22,14
+Red Bull Ring,Austria,0.52,20,50,0.7307692307692307,7,26,13
+Silverstone Circuit,UK,0.5638297872340425,14,94,0.75,6,24,8
+Circuit de Barcelona-Catalunya,Spain,0.6521739130434783,6,46,0.8181818181818182,3,22,3
+Hungaroring,Hungary,0.6785714285714286,4,56,0.5909090909090909,10,22,-6
